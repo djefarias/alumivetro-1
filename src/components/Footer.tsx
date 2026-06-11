@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-primary text-gray-400 py-12">
+    <footer className="bg-[#1a365d] text-gray-400 py-12">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
         <div>
           <h3 className="text-white font-bold text-lg mb-3">AlumiVetro</h3>

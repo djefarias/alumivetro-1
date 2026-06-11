@@ -10,14 +10,21 @@ export const metadata: Metadata = {
   keywords: ["esquadrias de alumínio", "portas de alumínio", "janelas", "vidros", "Paranavaí", "AlumiVetro"],
 }
 
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR" className="scroll-smooth">
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
+        <Header />
+        <main className="flex-1 pt-16">{children}</main>
+        <Footer />
+      </body>
     </html>
   )
 }

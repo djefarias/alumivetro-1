@@ -3,23 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --primary: #0f172a;
-  --primary-light: #1e293b;
-  --accent: #38bdf8;
-  --accent-dark: #0284c7;
+  --primary: #1a365d;
+  --primary-light: #2b4f8c;
+  --primary-dark: #0f1f3d;
+  --accent: #e8a838;
+  --accent-light: #f0c060;
 }
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-gray-800 antialiased;
+  }
 }
 
-body {
-  color: #1e293b;
-  background: #ffffff;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .btn-primary {
+    @apply bg-[#e8a838] hover:bg-[#d49520] text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 inline-block;
+  }
+  .btn-outline {
+    @apply border-2 border-[#1a365d] text-[#1a365d] hover:bg-[#1a365d] hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 inline-block;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-[#1a365d] mb-4;
+  }
+  .section-subtitle {
+    @apply text-lg text-gray-600 max-w-2xl mx-auto;
   }
 }
