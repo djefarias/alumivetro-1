@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   keywords: ["esquadrias de alumínio", "portas de alumínio", "janelas", "vidros", "Paranavaí", "AlumiVetro"],
 }
 
-import Image from "next/image"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
@@ -29,5 +28,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}
 }
