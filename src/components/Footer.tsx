@@ -3,7 +3,16 @@ export default function Footer() {
     <footer className="bg-[#0A6162] text-gray-400 py-12">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-white font-bold text-lg mb-3">AlumiVetro</h3>
+          <div className="flex items-center gap-3 mb-3">
+            <Image
+              src="/logo.png"
+              alt="AlumiVetro"
+              width={36}
+              height={34}
+              className="object-contain brightness-0 invert"
+            />
+            <h3 className="text-white font-bold text-lg">AlumiVetro</h3>
+          </div>
           <p className="text-sm leading-relaxed">
             Especializada em fabricação e instalação de esquadrias de alumínio e vidros.
             Qualidade e excelência para seu projeto.

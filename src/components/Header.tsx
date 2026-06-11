@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -15,8 +16,18 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm" id="home">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#home" className="text-xl font-bold text-[#0A6162]">
-          Alumi<span className="text-[#070707]">Vetro</span>
+        <a href="#home" className="flex items-center gap-3">
+          <Image
+            src="/logo.png"
+            alt="AlumiVetro"
+            width={42}
+            height={40}
+            className="object-contain"
+            priority
+          />
+          <span className="text-xl font-bold text-[#0A6162]">
+            Alumi<span className="text-[#070707]">Vetro</span>
+          </span>
         </a>
 
         <nav className="hidden md:flex gap-8">
