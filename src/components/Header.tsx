@@ -15,14 +15,14 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm" id="home">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#home" className="text-xl font-bold text-[#1a365d]">
-          Alumi<span className="text-[#e8a838]">Vetro</span>
+        <a href="#home" className="text-xl font-bold text-[#0A6162]">
+          Alumi<span className="text-[#070707]">Vetro</span>
         </a>
 
         <nav className="hidden md:flex gap-8">
           {links.map(l => (
             <a key={l.href} href={l.href}
-              className="text-sm font-medium text-gray-600 hover:text-[#1a365d] transition-colors">
+              className="text-sm font-medium text-gray-600 hover:text-[#0A6162] transition-colors">
               {l.label}
             </a>
           ))}
@@ -49,7 +49,7 @@ export default function Header() {
           <div className="flex flex-col p-4 gap-3">
             {links.map(l => (
               <a key={l.href} href={l.href} onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium text-gray-600 hover:text-[#1a365d]">
+                className="text-sm font-medium text-gray-600 hover:text-[#0A6162]">
                 {l.label}
               </a>
             ))}
