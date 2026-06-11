@@ -13,6 +13,8 @@ const fotos = {
   royal: [
     { src: "/fotos/royal-1.jpg", alt: "Instalação Condomínio Royal" },
     { src: "/fotos/royal-2.jpg", alt: "Instalação Condomínio Royal" },
+    { src: "/fotos/royal-3.jpg", alt: "Instalação Condomínio Royal" },
+    { src: "/fotos/royal-4.jpg", alt: "Instalação Condomínio Royal" },
   ],
 };
 
