@@ -37,32 +37,31 @@ export default function HomePage() {
           <div className="lg:max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white text-sm font-medium px-4 py-2 rounded-full mb-6">
               <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-              Qualidade e Excelência em Alumínio
+              Esquadrias de Alumínio em Paranavaí PR
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Sua obra merece o{" "}
-              <span className="text-white">melhor acabamento</span>
+              Esquadrias de Alumínio em{" "}
+              <span className="text-white">Paranavaí e Noroeste do PR</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed">
-              Esquadrias, brises e estruturas de alumínio sob medida. 
-              Instalação profissional com padrão de qualidade que faz a diferença.
+              Fabricação e instalação de <strong>esquadrias de alumínio</strong>, portas, janelas, brises e fachadas em{" "}
+              <strong>Paranavaí</strong> e região noroeste do Paraná. Orçamento sem compromisso.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href="#portfolio" className="btn-primary text-center">
-                Ver Portfólio
+                Ver Trabalhos Realizados
               </a>
               <a
-                href="https://wa.me/554499999999?text=Olá! Gostaria de um orçamento para esquadrias de alumínio."
+                href="https://wa.me/554499999999?text=Olá! Gostaria de um orçamento para esquadrias de alumínio em Paranavaí."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline !border-white !text-white hover:!bg-white hover:!text-[#0A6162] text-center"
               >
-                Fale Conosco
+                Orçamento Esquadrias Paranavaí
               </a>
             </div>
           </div>
         </div>
-        {/* Decorative element */}
         <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-1/3 h-3/4 opacity-10">
           <div className="w-full h-full bg-gradient-to-l from-[#0A6162] to-transparent" style={{ clipPath: "polygon(100% 0, 0 50%, 100% 100%)" }} />
         </div>
@@ -76,30 +75,31 @@ export default function HomePage() {
               <div className="aspect-[4/3] bg-gradient-to-br from-[#0A6162] to-[#0d7a7b] rounded-2xl flex items-center justify-center p-8">
                 <div className="text-center text-white">
                   <div className="text-6xl font-bold text-white mb-2">+10</div>
-                  <div className="text-lg">Anos de Experiência</div>
+                  <div className="text-lg">Anos Atendendo Paranavaí</div>
                   <div className="mt-6 flex gap-8 justify-center text-sm">
-                    <div><span className="text-white font-bold text-xl">+50</span><br />Obras Realizadas</div>
-                    <div><span className="text-white font-bold text-xl">100%</span><br />Satisfação</div>
+                    <div><span className="text-white font-bold text-xl">+50</span><br />Obras no Noroeste PR</div>
+                    <div><span className="text-white font-bold text-xl">100%</span><br />Clientes Satisfeitos</div>
                   </div>
                 </div>
               </div>
             </div>
             <div>
               <h2 className="text-sm font-semibold text-[#070707] uppercase tracking-wider mb-2">
-                Sobre Nós
+                Sobre a AlumiVetro
               </h2>
-              <h3 className="section-title mb-6">Excelência em esquadrias de alumínio</h3>
+              <h3 className="section-title mb-6">Referência em esquadrias de alumínio em Paranavaí</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                A <strong>AlumiVetro</strong> é referência em soluções de alumínio para construção civil 
-                no Paraná. Trabalhamos com materiais de alta qualidade e mão de obra especializada 
+                A <strong>AlumiVetro</strong> é referência em <strong>esquadrias de alumínio em Paranavaí</strong> e todo o{" "}
+                noroeste do Paraná. Trabalhamos com materiais de alta qualidade e mão de obra especializada{" "}
                 para entregar projetos residenciais e comerciais com acabamento impecável.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Do planejamento à instalação, cada etapa é pensada para garantir durabilidade, 
-                design moderno e a satisfação dos nossos clientes.
+                Do planejamento à instalação, cada etapa é pensada para garantir durabilidade,{" "}
+                design moderno e a satisfação dos nossos clientes. Atendemos <strong>Paranavaí</strong>,{" "}
+                Ourizona, Nova Esperança e toda região do noroeste paranaense.
               </p>
               <div className="grid grid-cols-2 gap-4 text-sm">
-                {["Equipe especializada", "Materiais premium", "Orçamento sem compromisso", "Garantia nos serviços"].map((item) => (
+                {["Equipe própria em Paranavaí", "Materiais certificados", "Orçamento sem compromisso", "Garantia em esquadrias"].map((item) => (
                   <div key={item} className="flex items-center gap-2 text-gray-700">
                     <svg className="w-5 h-5 text-[#070707] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -120,9 +120,9 @@ export default function HomePage() {
             <h2 className="text-sm font-semibold text-[#070707] uppercase tracking-wider mb-2">
               Portfólio
             </h2>
-            <h3 className="section-title">Nossos Trabalhos</h3>
+            <h3 className="section-title">Trabalhos Realizados em Paranavaí e Região</h3>
             <p className="section-subtitle">
-              Conheça alguns dos projetos que realizamos com padrão de qualidade AlumiVetro.
+              Conheça alguns dos projetos de esquadrias de alumínio que realizamos no noroeste do Paraná.
             </p>
           </div>
 
@@ -174,11 +174,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-sm font-semibold text-[#070707] uppercase tracking-wider mb-2">
-              Serviços
+              Serviços de Esquadrias em Paranavaí
             </h2>
-            <h3 className="section-title">O que fazemos</h3>
+            <h3 className="section-title">Soluções em Alumínio para Sua Obra</h3>
             <p className="section-subtitle">
-              Soluções completas em alumínio para sua obra.
+              Oferecemos serviços completos de esquadrias de alumínio, brises, estruturas e instalação profissional em Paranavaí e região.
             </p>
           </div>
 
@@ -186,7 +186,7 @@ export default function HomePage() {
             {[
               {
                 title: "Esquadrias de Alumínio",
-                desc: "Janelas, portas e vitrôs sob medida com perfis de alta resistência e design moderno.",
+                desc: "Fabricação e instalação de janelas, portas e vitrôs sob medida em Paranavaí. Perfis de alta resistência com design moderno.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -195,7 +195,7 @@ export default function HomePage() {
               },
               {
                 title: "Brises Soleil",
-                desc: "Elementos arquitetônicos que aliam estética e funcionalidade, controlando iluminação e ventilação.",
+                desc: "Elementos arquitetônicos em alumínio que controlam iluminação e ventilação. Design funcional para residências e comércios.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -203,8 +203,8 @@ export default function HomePage() {
                 ),
               },
               {
-                title: "Estruturas Metálicas",
-                desc: "Estruturas de alumínio para fachadas, coberturas, sacadas e projetos comerciais.",
+                title: "Fachadas e Estruturas",
+                desc: "Estruturas de alumínio para fachadas, coberturas, sacadas e projetos comerciais. Instalação profissional em Paranavaí.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
@@ -212,8 +212,8 @@ export default function HomePage() {
                 ),
               },
               {
-                title: "Instalação Profissional",
-                desc: "Equipe especializada para instalação com segurança, precisão e acabamento impecável.",
+                title: "Instalação de Esquadrias",
+                desc: "Equipe especializada em instalação de esquadrias de alumínio em Paranavaí. Precisão, segurança e acabamento impecável.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -222,8 +222,8 @@ export default function HomePage() {
                 ),
               },
               {
-                title: "Manutenção & Reparos",
-                desc: "Serviço de manutenção preventiva e corretiva para prolongar a vida útil das suas esquadrias.",
+                title: "Manutenção de Esquadrias",
+                desc: "Manutenção preventiva e corretiva de esquadrias de alumínio em Paranavaí. Prolongue a vida útil das suas janelas e portas.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -232,7 +232,7 @@ export default function HomePage() {
               },
               {
                 title: "Projetos Personalizados",
-                desc: "Desenvolvimento de projetos sob medida para atender às necessidades específicas da sua obra.",
+                desc: "Desenvolvemos projetos de esquadrias sob medida para sua obra em Paranavaí. Do conceito à instalação final.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -262,15 +262,14 @@ export default function HomePage() {
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Solicite seu Orçamento
+            Solicite seu Orçamento em Paranavaí
           </h2>
           <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">
-            Entre em contato conosco e descubra como podemos transformar sua obra 
-            com soluções em alumínio de alta qualidade.
+            Entre em contato e descubra como podemos transformar sua obra com soluções em alumínio em Paranavaí e região.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/554499999999?text=Olá! Gostaria de um orçamento para esquadrias de alumínio."
+              href="https://wa.me/554499999999?text=Olá! Gostaria de um orçamento para esquadrias de alumínio em Paranavaí."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-lg transition-all duration-300 text-lg inline-flex items-center gap-2"
@@ -310,7 +309,7 @@ export default function HomePage() {
           <div className="relative max-w-5xl max-h-[90vh] w-full h-full">
             <Image
               src={lightbox}
-              alt="Foto ampliada"
+              alt="Foto ampliada de esquadrias de alumínio em Paranavaí"
               fill
               className="object-contain"
               sizes="100vw"
